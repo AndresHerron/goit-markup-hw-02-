@@ -3,14 +3,14 @@
     --primary-text-color: #757575;
     --primary-white-color: #ffffff;
   
-    --accent-color: #2196f3;
+    --accent-color: #066abb;
     --background-black: #21303a;
-    --background-black-dark: #2f303a;
+    --background-black-dark: #1a1b22;
     --background-gray: #f5f4fa;
     --button-filter: #f5f4fa;
-    --button-primary-hover: #188ce8;
+    --button-primary-hover: #2a9fff;
     --logo-black: #000000;
-    --text-white-opacity: #ffffff99;
+    --text-white-opacity: #ffffff7e;
   
     --container-padding: calc((100% - 1200px) / 2);
   }
