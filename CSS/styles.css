@@ -36,7 +36,7 @@
     padding: 30px 0;
     text-align: center;
   }
-  /* ----------- Header section ----------- */
+
   
   header nav .logo {
     color: var(--accent-color);
@@ -83,7 +83,7 @@
   .contact-menu .link:focus {
     color: var(--accent-color);
   }
-  /* ----------- Hero section ----------- */
+
   .hero {
     background-color: var(--background-black-dark);
   }
@@ -107,18 +107,18 @@
     cursor: pointer;
     background-color: var(--button-primary-hover);
   }
-  /* ----------- feature section ----------- */
+
   .feature li .title {
     text-transform: uppercase;
     color: var(--primary-black-color);
   }
-  /* ----------- What we do----------- */
+
   
   .what-we-do-section .container ul li {
     list-style: none;
     width: 360px;
   }
-  /*----------- Team section -----------*/
+  
   .team-section {
     background-color: var(--background-gray);
   }
@@ -159,7 +159,7 @@
     color: var(--primary-white-color);
   }
   
-  /* Portafolio Section */
+
   .portfolio .menu {
     list-style: none;
   }
