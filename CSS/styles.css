@@ -1,0 +1,193 @@
+:root {
+    --primary-black-color: #212121;
+    --primary-text-color: #757575;
+    --primary-white-color: #ffffff;
+  
+    --accent-color: #2196f3;
+    --background-black: #21303a;
+    --background-black-dark: #2f303a;
+    --background-gray: #f5f4fa;
+    --button-filter: #f5f4fa;
+    --button-primary-hover: #188ce8;
+    --logo-black: #000000;
+    --text-white-opacity: #ffffff99;
+  
+    --container-padding: calc((100% - 1200px) / 2);
+  }
+  
+  body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  
+  .section > h2 {
+    color: var(--primary-black-color);
+    font-size: 32px;
+    font-weight: 700;
+    padding: 30px 0;
+    text-align: center;
+  }
+  /* ----------- Header section ----------- */
+  
+  header nav .logo {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  
+  header nav .nav-menu .page {
+    color: var(--primary-black-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+  
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-menu .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+  
+  .logo {
+    color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 2rem;
+    text-decoration: none;
+  }
+  
+  .nav-menu .page:hover,
+  .nav-menu .page:focus,
+  .nav-menu .page.current,
+  .contact-menu .link:hover,
+  .contact-menu .link:focus {
+    color: var(--accent-color);
+  }
+  /* ----------- Hero section ----------- */
+  .hero {
+    background-color: var(--background-black-dark);
+  }
+  .hero .hero-title {
+    color: var(--primary-white-color);
+    font-size: 44px;
+    text-transform: capitalize;
+  }
+  .button-primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    font-size: 16px;
+  
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 20px;
+  }
+  .button-primary:hover {
+    cursor: pointer;
+    background-color: var(--button-primary-hover);
+  }
+  /* ----------- feature section ----------- */
+  .feature li .title {
+    text-transform: uppercase;
+    color: var(--primary-black-color);
+  }
+  /* ----------- What we do----------- */
+  
+  .what-we-do-section .container ul li {
+    list-style: none;
+    width: 360px;
+  }
+  /*----------- Team section -----------*/
+  .team-section {
+    background-color: var(--background-gray);
+  }
+  .team li {
+    background-color: var(--primary-white-color);
+    list-style: none;
+  }
+  
+  .team li h3 {
+    margin: 20px 0 10px 0;
+  }
+  .team li p {
+    margin-bottom: 30px;
+  }
+  .footbar {
+    background-color: var(--background-black);
+  }
+  .footer-links .contact {
+    color: var(--text-white-opacity);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71rem;
+  }
+  .footer-links ul {
+    list-style: none;
+  }
+  .footer-links .contact {
+    display: block;
+    color: var(--text-white-opacity);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    padding: 5px 0;
+  }
+  .footer-links .contact:hover {
+    color: var(--primary-white-color);
+  }
+  
+  /* Portafolio Section */
+  .portfolio .menu {
+    list-style: none;
+  }
+  .portfolio .menu li button {
+    color: var(--primary-black-color);
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+  
+    text-decoration: none;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  
+  .portfolio .list li button:hover,
+  .portfolio .list li button.current {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+  
+  .portfolio .cards li a h2 {
+    color: var(--primary-black-color);
+    padding: 15px;
+  }
+  .portfolio .cards li a p {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    padding: 15px;
+  }
