@@ -1,6 +1,6 @@
 :root {
     --primary-black-color: #212121;
-    --primary-text-color: #757575;
+    --primary-text-color: #535353;
     --primary-white-color: #ffffff;
   
     --accent-color: #066abb;
@@ -11,7 +11,8 @@
     --button-primary-hover: #2a9fff;
     --logo-black: #000000;
     --text-white-opacity: #ffffff7e;
-  
+    --gray-1: #f5f4fa;
+    --gray-2: #afb1b8;
     --container-padding: calc((100% - 1200px) / 2);
   }
   
@@ -158,36 +159,18 @@
   .footer-links .contact:hover {
     color: var(--primary-white-color);
   }
-  
+  /* Portafolio Section */
 
-  .portfolio .menu {
-    list-style: none;
-  }
-  .portfolio .menu li button {
-    color: var(--primary-black-color);
-  
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.4;
-    letter-spacing: 0.02em;
-  
-    text-decoration: none;
-    text-transform: capitalize;
-    cursor: pointer;
-  }
-  
-  .portfolio .list li button:hover,
-  .portfolio .list li button.current {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-  }
-  
-  .portfolio .cards li a h2 {
-    color: var(--primary-black-color);
-    padding: 15px;
-  }
-  .portfolio .cards li a p {
-    color: var(--primary-text-color);
-    font-size: 16px;
-    padding: 15px;
-  }
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color)
+
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--gray-2);
+}
